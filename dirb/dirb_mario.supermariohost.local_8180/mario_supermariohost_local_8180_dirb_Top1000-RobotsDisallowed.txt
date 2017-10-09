@@ -1,0 +1,41 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: results/exam/dirb/mario_supermariohost_local_8180_dirb_Top1000-RobotsDisallowed.txt
+START_TIME: Sat Oct  7 14:07:13 2017
+URL_BASE: http://mario.supermariohost.local:8180/
+WORDLIST_FILES: /root/lists/Web/AllWebLists/separate/Top1000-RobotsDisallowed.txt
+OPTION: Not Recursive
+OPTION: Silent Mode
+
+-----------------
+
+GENERATED WORDS: 999
+
+---- Scanning URL: http://mario.supermariohost.local:8180/ ----
++ http://mario.supermariohost.local:8180// (CODE:200|SIZE:7080)
++ http://mario.supermariohost.local:8180//?q=user/register/ (CODE:200|SIZE:7080)
++ http://mario.supermariohost.local:8180//?q=user/password/ (CODE:200|SIZE:7080)
++ http://mario.supermariohost.local:8180//?q=user/login/ (CODE:200|SIZE:7080)
++ http://mario.supermariohost.local:8180//?q=search/ (CODE:200|SIZE:7080)
++ http://mario.supermariohost.local:8180//?q=node/add/ (CODE:200|SIZE:7080)
++ http://mario.supermariohost.local:8180//?q=comment/reply/ (CODE:200|SIZE:7080)
++ http://mario.supermariohost.local:8180//?q=admin/ (CODE:200|SIZE:7080)
++ http://mario.supermariohost.local:8180//?q=user/logout/ (CODE:200|SIZE:7080)
++ http://mario.supermariohost.local:8180//?q=filter/tips/ (CODE:200|SIZE:7080)
++ http://mario.supermariohost.local:8180//?level=12 (CODE:200|SIZE:7080)
++ http://mario.supermariohost.local:8180//? (CODE:200|SIZE:7080)
++ http://mario.supermariohost.local:8180/?&what= (CODE:200|SIZE:7080)
++ http://mario.supermariohost.local:8180//?q=logout/ (CODE:200|SIZE:7080)
++ http://mario.supermariohost.local:8180//?q=contact/ (CODE:200|SIZE:7080)
++ http://mario.supermariohost.local:8180//?q=* (CODE:200|SIZE:7080)
++ http://mario.supermariohost.local:8180//?msk (CODE:200|SIZE:7080)
++ http://mario.supermariohost.local:8180//?favorites (CODE:200|SIZE:7080)
++ http://mario.supermariohost.local:8180//?* (CODE:200|SIZE:7080)
+
+-----------------
+END_TIME: Sat Oct  7 14:07:15 2017
+DOWNLOADED: 999 - FOUND: 19

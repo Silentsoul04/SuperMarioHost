@@ -1,0 +1,17 @@
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          192.168.2.80
++ Target Hostname:    mario.supermariohost.local
++ Target Port:        8180
++ Start Time:         2017-10-07 12:13:14 (GMT-5)
+---------------------------------------------------------------------------
++ Server: Apache
++ The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ Server leaks inodes via ETags, header found with file /, fields: 0x264 0x54a3d83d87463 
++ Web Server returns a valid response with junk HTTP methods, this may cause false positives.
++ OSVDB-3233: /icons/README: Apache default file found.
++ 7501 requests: 0 error(s) and 4 item(s) reported on remote host
++ End Time:           2017-10-07 12:13:40 (GMT-5) (26 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested

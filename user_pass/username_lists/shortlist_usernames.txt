@@ -1,0 +1,6 @@
+mario
+luigi
+peach
+bowser
+toad
+webmaster

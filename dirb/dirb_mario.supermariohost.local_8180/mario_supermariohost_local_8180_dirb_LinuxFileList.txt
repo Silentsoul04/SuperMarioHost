@@ -1,0 +1,67 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: results/exam/dirb/mario_supermariohost_local_8180_dirb_LinuxFileList.txt
+START_TIME: Sat Oct  7 15:38:40 2017
+URL_BASE: http://mario.supermariohost.local:8180/
+WORDLIST_FILES: /root/lists/Web/AllWebLists/separate/LinuxFileList.txt
+OPTION: Not Recursive
+OPTION: Silent Mode
+
+-----------------
+
+GENERATED WORDS: 86818
+
+---- Scanning URL: http://mario.supermariohost.local:8180/ ----
++ http://mario.supermariohost.local:8180// (CODE:200|SIZE:7080)
++ http://mario.supermariohost.local:8180//etc/gconf/gconf.xml.defaults/%gconf-tree.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//etc/gconf/gconf.xml.mandatory/%gconf-tree.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-ja.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-uk.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-it.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-cs.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-nl.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-sl.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-fi.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-et.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-pt.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-ko.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-ru.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-nb.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-bn_IN.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-gl.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-bg.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-gu.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-pt_BR.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-pa.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-es.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-zh_CN.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-ta.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-hr.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-eu.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-da.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-he.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-tr.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-pl.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-ca.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-or.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-sv.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-ro.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-sk.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-zh_TW.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-hu.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-fr.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-de.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-ar.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-bn.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-el.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/defaults/%gconf-tree-hi.xml (CODE:400|SIZE:226)
++ http://mario.supermariohost.local:8180//var/lib/gconf/debian.defaults/%gconf-tree.xml (CODE:400|SIZE:226)
+
+-----------------
+END_TIME: Sat Oct  7 15:42:17 2017
+DOWNLOADED: 86818 - FOUND: 45

@@ -1,0 +1,41 @@
+# Nmap 7.60 scan initiated Sat Oct  7 09:33:01 2017 as: nmap -vv -Pn -A -sC -sU -T 4 --top-ports 200 -oN /root/scripts/recon_enum/results/exam/192.168.2.80U.nmap -oX /root/scripts/recon_enum/results/exam/nmap/192.168.2.80U_nmap_scan_import.xml 192.168.2.80
+Increasing send delay for 192.168.2.80 from 0 to 50 due to 11 out of 15 dropped probes since last increase.
+Warning: 192.168.2.80 giving up on port because retransmission cap hit (6).
+Increasing send delay for 192.168.2.80 from 200 to 400 due to 11 out of 12 dropped probes since last increase.
+Increasing send delay for 192.168.2.80 from 400 to 800 due to 11 out of 16 dropped probes since last increase.
+adjust_timeouts2: packet supposedly had rtt of -148786 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -148786 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -149179 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -149179 microseconds.  Ignoring time.
+Nmap scan report for supermariohost.BreakfastHouse (192.168.2.80)
+Host is up, received arp-response (0.013s latency).
+Scanned at 2017-10-07 09:33:01 CDT for 241s
+Not shown: 195 closed ports
+Reason: 195 port-unreaches
+PORT      STATE         SERVICE     REASON                                VERSION
+68/udp    filtered      dhcpc       port-unreach from 192.168.2.60 ttl 64
+139/udp   open|filtered netbios-ssn no-response
+520/udp   filtered      route       port-unreach from 192.168.2.60 ttl 64
+1025/udp  open|filtered blackjack   no-response
+19682/udp filtered      unknown     port-unreach from 192.168.2.60 ttl 64
+MAC Address: 7C:D1:C3:EB:19:65 (Apple)
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.60%E=4%D=10/7%OT=%CT=%CU=7%PV=Y%DS=1%DC=D%G=N%M=7CD1C3%TM=59D8E68E%P=x86_64-pc-linux-gnu)
+SEQ(CI=I%II=I)
+SEQ(CI=I)
+T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)
+T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)
+U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)
+IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT      ADDRESS
+1   12.56 ms supermariohost.BreakfastHouse (192.168.2.80)
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Oct  7 09:37:02 2017 -- 1 IP address (1 host up) scanned in 241.53 seconds

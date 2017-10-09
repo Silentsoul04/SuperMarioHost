@@ -1,0 +1,56 @@
+# Nmap 7.60 scan initiated Sat Oct  7 09:06:25 2017 as: nmap -vv -Pn -A -sC -sS -T 4 -p- -oN /root/scripts/recon_enum/results/exam/192.168.2.80.nmap -oX /root/scripts/recon_enum/results/exam/nmap/192.168.2.80_nmap_scan_import.xml 192.168.2.80
+Increasing send delay for 192.168.2.80 from 5 to 10 due to 61 out of 151 dropped probes since last increase.
+Warning: 192.168.2.80 giving up on port because retransmission cap hit (6).
+adjust_timeouts2: packet supposedly had rtt of -173545 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -173545 microseconds.  Ignoring time.
+Nmap scan report for supermariohost.BreakfastHouse (192.168.2.80)
+Host is up, received arp-response (0.0034s latency).
+Scanned at 2017-10-07 09:06:25 CDT for 1595s
+Not shown: 65533 closed ports
+Reason: 65533 resets
+PORT     STATE SERVICE REASON         VERSION
+22/tcp   open  ssh     syn-ack ttl 64 OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   1024 1c:97:c0:06:3b:cb:4f:6f:0f:65:8d:37:82:c4:23:59 (DSA)
+| ssh-dss AAAAB3NzaC1kc3MAAACBAM3pfHHqOGvXkuzwUPtx4+qKLk0sQjcVRerazSI+QnmW/TvGv3nfuOu6xJSdV8Kk/K5qSvmG3Ey8WyShxau4MWy4W13ETfGRb4X00vfafYHDUU8TigsbeJqyeBkIA5GVImT6IVIztHoEbhf94+OvNeC2OmmCy6HpSvoN9b/vHCpXAAAAFQCwZa9q2m3Jy9iW1sh4iOzNe9BTuwAAAIEAv+1WXqXiF8QKopWuS74SFEICGs62TfNf8bIU5tLyFTD/93LgRgGxkAQBlROjmxFC2V6gIhPL78HMReemGgx1GYpEQQxtCFkk4vwPopJXEVX9lDKyy8djyz4paam8MAaxDqgM7S3Upmju+4qY5uV92+XNH5e3KvrqaxX69NG2SqIAAACBAMvA3+BpC4K3PIOoApCqgt8U7+/HI5/rq3Dkbeo+8bPTAI13331vo9cMnB0NlLN8H/oezb70guM3FGwcfBsoXb6387NRC28bnd2fLr7dA6A4sSujTvhYuSTEN3NOCNbenANEUOFBQpln/DGO3BLIyvaKGebnPDbjwok+1Zc8omh7
+|   2048 45:2d:fe:04:bb:98:ed:00:d7:7b:36:da:8f:cf:44:1c (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDdXq6Uf0RohYYCIkzd4k6/NH4Xnii+At/RzjgJzVQ4fW4VtLMV59qAqof8GyHzGH5mS4Z7QMhI4pIRARUeHdJjxD06PxKm4wF4pZgfav+QXxCAcpAi2rM4fNrtcjNABf73z7p0tybLIHEDG1OUkhyE5xodU3V7oJ9UMEn4AyPhw/d4M7B2XopNJ3odoYhXTS2w5JRqXEVwIhTrKpCUmi9wLaZrqbprxqngscYzFgSSu53oyzFk7lINUA/Mkh0/QvRafVzIxaOYRy6OYSTj9wDd92ICiSQFFLmv1LQsd51WdzFmxPBj53k0PWvxpG7WpxTivmPzTOXWoz8GgGN5S2jT
+|   256 09:5c:25:9d:5c:54:ae:8d:90:e3:44:9b:5e:a1:4d:e0 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJ37xdsp1Pe7X1MsZbWg4YxnNuJF/saurKKUl70sP3mh2ICFMiyM8HAUJcDwLfIbYUVXmcXpOlYTa76kraJiTIM=
+|   256 c9:d5:6a:32:53:ab:8a:43:74:4b:85:fb:a0:ba:40:52 (EdDSA)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIETkAfi4fu57kOVc/5BckwYAzbSbYI/xWSvvG6FDolNF
+8180/tcp open  http    syn-ack ttl 64 Apache httpd
+| http-methods: 
+|_  Supported Methods: OPTIONS GET HEAD POST
+|_http-server-header: Apache
+|_http-title: nginx
+MAC Address: 7C:D1:C3:EB:19:65 (Apple)
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.8
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=10/7%OT=22%CT=1%CU=41431%PV=Y%DS=1%DC=D%G=Y%M=7CD1C3%T
+OS:M=59D8E59C%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=107%TI=Z%CI=I%TS=8
+OS:)OPS(O1=M5B4ST11NW7%O2=M5B4ST11NW7%O3=M5B4NNT11NW7%O4=M5B4ST11NW7%O5=M5B
+OS:4ST11NW7%O6=M5B4ST11)WIN(W1=7120%W2=7120%W3=7120%W4=7120%W5=7120%W6=7120
+OS:)ECN(R=Y%DF=Y%T=40%W=7210%O=M5B4NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+
+OS:%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)
+OS:T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A
+OS:=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%D
+OS:F=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=4
+OS:0%CD=S)
+
+Uptime guess: 0.021 days (since Sat Oct  7 09:02:57 2017)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   3.39 ms supermariohost.BreakfastHouse (192.168.2.80)
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Oct  7 09:33:00 2017 -- 1 IP address (1 host up) scanned in 1595.99 seconds

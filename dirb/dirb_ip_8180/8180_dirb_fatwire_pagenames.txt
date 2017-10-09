@@ -1,0 +1,22 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: results/exam/dirb/8180_dirb_fatwire_pagenames.txt
+START_TIME: Sat Oct  7 11:44:45 2017
+URL_BASE: http://192.168.2.80:8180/
+WORDLIST_FILES: /usr/share/dirb/wordlists/vulns/fatwire_pagenames.txt
+OPTION: Not Recursive
+OPTION: Silent Mode
+
+-----------------
+
+GENERATED WORDS: 2712
+
+---- Scanning URL: http://192.168.2.80:8180/ ----
+
+-----------------
+END_TIME: Sat Oct  7 11:44:53 2017
+DOWNLOADED: 2712 - FOUND: 0

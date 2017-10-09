@@ -1,0 +1,23 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: results/exam/dirb/8180_dirb_sap.txt
+START_TIME: Sat Oct  7 11:44:42 2017
+URL_BASE: http://192.168.2.80:8180/
+WORDLIST_FILES: /usr/share/dirb/wordlists/vulns/sap.txt
+OPTION: Not Recursive
+OPTION: Silent Mode
+
+-----------------
+
+GENERATED WORDS: 1090
+
+---- Scanning URL: http://192.168.2.80:8180/ ----
++ http://192.168.2.80:8180/index.html (CODE:200|SIZE:612)
+
+-----------------
+END_TIME: Sat Oct  7 11:44:44 2017
+DOWNLOADED: 1090 - FOUND: 1

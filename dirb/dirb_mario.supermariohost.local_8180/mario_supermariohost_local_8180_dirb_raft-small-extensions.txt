@@ -1,0 +1,28 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: results/exam/dirb/mario_supermariohost_local_8180_dirb_raft-small-extensions.txt
+START_TIME: Sat Oct  7 15:21:51 2017
+URL_BASE: http://mario.supermariohost.local:8180/
+WORDLIST_FILES: /root/lists/Web/AllWebLists/separate/raft-small-extensions.txt
+OPTION: Not Recursive
+OPTION: Silent Mode
+
+-----------------
+
+GENERATED WORDS: 963
+
+---- Scanning URL: http://mario.supermariohost.local:8180/ ----
++ http://mario.supermariohost.local:8180/.php (CODE:403|SIZE:206)
++ http://mario.supermariohost.local:8180/.php3 (CODE:403|SIZE:207)
++ http://mario.supermariohost.local:8180/.phtml (CODE:403|SIZE:208)
++ http://mario.supermariohost.local:8180/.php5 (CODE:403|SIZE:207)
++ http://mario.supermariohost.local:8180/.php4 (CODE:403|SIZE:207)
++ http://mario.supermariohost.local:8180/.phps (CODE:403|SIZE:207)
+
+-----------------
+END_TIME: Sat Oct  7 15:21:53 2017
+DOWNLOADED: 963 - FOUND: 6
